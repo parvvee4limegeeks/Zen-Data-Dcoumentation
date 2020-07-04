@@ -30,12 +30,13 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
     {
     email: String
     displayName: String
-    profile: String
-    phoneNumber: 
+    profileData: String
+    phoneNumber: String? 
     isEmailVerified: Bool,
     providerData: {},
     onboarded: Bool,
     onboardProgress: Float
+    blockedRetailers: [ {...Retailer}],
     
     }
 
@@ -45,6 +46,18 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
 
 ### Retailer
 
+    {
+    email: String
+    displayName: String
+    profileData: String
+    phoneNumber: String? 
+    isEmailVerified: Bool,
+    providerData: {},
+    onboarded: Bool,
+    onboardProgress: Float
+    blockedUsers: [ {...Vendor}],
+    
+    }
 
 
 
@@ -101,5 +114,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMzgyMjY4XX0=
+eyJoaXN0b3J5IjpbLTE4MTAxNTg3MzZdfQ==
 -->
