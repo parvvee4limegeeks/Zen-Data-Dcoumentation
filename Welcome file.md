@@ -27,8 +27,8 @@ As per the version 1.0 User Objects for the the above roles are as follows
 
 
 
-Admin User shall have access to the dashboard screens based on the scopes that are true for him 
-$$
+**Note** : Admin User shall have access to the dashboard screens based on the scopes that are true for him 
+
 
 
 ### Vendor
@@ -64,6 +64,13 @@ $$
     blockedUsers: [ {...Vendor}],
     
     }
+
+
+
+
+
+
+
 
 
 
@@ -124,5 +131,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjIzMTVdfQ==
+eyJoaXN0b3J5IjpbMjA5NTAzMjg3M119
 -->
