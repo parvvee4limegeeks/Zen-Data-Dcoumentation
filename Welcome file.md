@@ -1,3 +1,21 @@
+# Overview
+This documentation covers the basic understanding of ZENDATA MVP for **Vendors** , **Retailers** and **Admin**
+
+
+
+## Authentication
+
+### Admin
+
+
+
+
+
+### Vendor
+
+
+
+
 
 ## SmartyPants
 
@@ -49,5 +67,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzg2MTUxMF19
+eyJoaXN0b3J5IjpbLTc1NTE1NDc1Nl19
 -->
