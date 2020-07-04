@@ -7,11 +7,26 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
 
 ### Admin
 
+    {
+    email: String
+    displayName: String
+    profile: String
+    phoneNumber: 
+    isEmailVerified
+    
+    }
+
 
 
 
 
 ### Vendor
+
+
+
+
+
+### Retailer
 
 
 
@@ -66,6 +81,8 @@ A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTE1NDc1Nl19
+eyJoaXN0b3J5IjpbMTE3ODY1MzU3OV19
 -->
