@@ -5,6 +5,9 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
 
 ## Authentication
 
+
+As per the version 1.0 User Objects for the the above roles are as follows
+
 ### Admin
 
     {
@@ -13,7 +16,7 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
     profile: String
     phoneNumber: 
     isEmailVerified: Bool,
-    roles: {
+    scopes: {
     manageVendor: true, 
     manageRetailer: true,
     manageInventory: true
@@ -118,5 +121,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA3MDQ5MzBdfQ==
+eyJoaXN0b3J5IjpbLTIxMTU1MDQ5ODFdfQ==
 -->
