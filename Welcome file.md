@@ -34,7 +34,9 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
     phoneNumber: 
     isEmailVerified: Bool,
     providerData: {},
-
+    onboarded: Bool,
+    onboardProgress: Float
+    
     }
 
 
@@ -99,5 +101,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzg3MjAwXX0=
+eyJoaXN0b3J5IjpbNzQwMzgyMjY4XX0=
 -->
