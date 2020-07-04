@@ -12,7 +12,9 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
     displayName: String
     profile: String
     phoneNumber: 
-    isEmailVerified
+    isEmailVerified: Bool
+    roles: {manageVendor: true, manageRetailer: true, manageInventory: true
+     }
     
     }
 
@@ -84,5 +86,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODY1MzU3OV19
+eyJoaXN0b3J5IjpbLTkxODMzMTFdfQ==
 -->
