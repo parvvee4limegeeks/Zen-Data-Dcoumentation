@@ -52,12 +52,16 @@ This documentation covers the basic understanding of ZENDATA MVP for **Vendors**
     profileData: String
     phoneNumber: String? 
     isEmailVerified: Bool,
-    providerData: {},
+    provider: {},
     onboarded: Bool,
     onboardProgress: Float
     blockedUsers: [ {...Vendor}],
     
     }
+
+
+
+
 
 
 
@@ -114,5 +118,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAxNTg3MzZdfQ==
+eyJoaXN0b3J5IjpbLTE0MjA3MDQ5MzBdfQ==
 -->
