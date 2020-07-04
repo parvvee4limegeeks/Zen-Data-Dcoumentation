@@ -17,15 +17,18 @@ As per the version 1.0 User Objects for the the above roles are as follows
     phoneNumber: 
     isEmailVerified: Bool,
     scopes: {
-    manageVendor: true, 
-    manageRetailer: true,
-    manageInventory: true
+    manageVendor: Bool, 
+    manageRetailer: Bool,
+    manageInventory: Bool,
+    accessReports: Bool
      }
     
     }
 
 
 
+Admin User shall have access to the dashboard screens based on the scopes that are true for him 
+$$
 
 
 ### Vendor
@@ -121,5 +124,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU1MDQ5ODFdfQ==
+eyJoaXN0b3J5IjpbLTUzMjIzMTVdfQ==
 -->
